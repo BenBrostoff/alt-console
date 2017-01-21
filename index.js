@@ -12,8 +12,14 @@ const liveLog = (v, color = 'red') => (
   )
 );
 
+const getCallStack = (limit = 10) => {
+  Object.assign(Error, { stackTraceLimit: limit });
+  liveLog(new Error().stack, 'green');
+};
+
 module.exports = {
   freeze,
   liveLog,
+  getCallStack,
 };
 
