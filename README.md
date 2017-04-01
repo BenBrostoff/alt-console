@@ -4,3 +4,5 @@ Super small npm module in response to known issues with Chrome not logging objec
 
 - [S/O inspiration](http://stackoverflow.com/questions/24175017/google-chrome-console-log-inconsistency-with-objects-and-arrays)
 - [Webkit bug that makes mention of this issue](https://bugs.webkit.org/show_bug.cgi?id=35801)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/BenBrostoff/alt-console.svg)](https://greenkeeper.io/)
