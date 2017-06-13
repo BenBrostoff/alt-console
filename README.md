@@ -9,11 +9,14 @@ Super small npm module in response to known issues with Chrome not logging objec
 # Usage
 
 ```javascript
+const AltConsole = require('alt-console');
+
+const logger = new AltConsole();
+
 const obj = { a: 1 };
 
-const logger = new AltLogger();
 logger.getCallStack();
-logger.liveLog(t); // { a: 1 }
+logger.liveLog(obj); // { a: 1 }
 
 const obj = { a: 2 };
 ```
