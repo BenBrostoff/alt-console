@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/BenBrostoff/alt-console.svg?branch=master)](https://travis-ci.org/BenBrostoff/alt-console)
 [![Greenkeeper badge](https://badges.greenkeeper.io/BenBrostoff/alt-console.svg)](https://greenkeeper.io/)
-[![Coverage Status](https://coveralls.io/repos/<account>/<repository>/badge.svg?branch=master)](https://coveralls.io/r/BenBrostoff/alt-console?branch=master)
-
+[![Coverage Status](https://coveralls.io/repos/github/BenBrostoff/alt-console/badge.svg)](https://coveralls.io/github/BenBrostoff/alt-console)
 
 Super small npm module in response to known issues with Chrome not logging objects at current state.
 
